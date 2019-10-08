@@ -147,7 +147,8 @@ footer p {
   nav {
     background-color: white;
     border-radius: 15%;
-    margin: 0 auto;
+    width: 40%;
+    /* margin: 0 auto; */
   }
   ul.navbar {
     padding-left: 0;
@@ -156,14 +157,14 @@ footer p {
     display: block;
     margin: 15px 0;
   }
+  .navbar li a {
+    font-size: 1.5rem;
+  }
   header img {
     max-width: 50px;
   }
-  header {
-
-  }
   main {
-    margin-left: 35px;
+    margin-left: 50px;
   }
   .gridcontainer {
     display: flex;
@@ -174,7 +175,7 @@ footer p {
   }
   .box {
     max-width: 300px;
-    margin: 150px 0;
+    margin: 50px 0;
   }
   .box img {
     max-width: 300px;
@@ -182,9 +183,8 @@ footer p {
   .box p {
     font-size: 1.25rem;
     text-align: center;
-
   }
   footer {
-    max-width: 100%;
+    min-width: 100%;
   }
 }

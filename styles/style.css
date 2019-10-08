@@ -3,31 +3,129 @@ font-family: 'Acme', sans-serif;
 font-family: 'Play', sans-serif;
 */
 /* COLORS:
-
+Outer Space
+#565557
+White
+#c0e6eb
+Orange
+#ebc33f
+Blue Green
+#5da4ae
+Black
+#282641
 */
 
-/*----------------------------------------------------------------------------*/
+/* GLOBAL:  */
+html {
+  box-sizing: border-box;
+  font-size: 2vw;
+}
+body {
+  margin: 0;
+  background: linear-gradient(rgba(255,255,255,.5) , rgba(255,255,255,.5)) ,
+  url(../images/sunset.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-top: 210px;
+font-family: 'Acme', sans-serif;
+}
+/* NAV/HEADER: */
+header {
+  display: flex;
+  background-color: #565557;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  border: 3px groove white;
+  border-radius: 2%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-family: 'Acme', sans-serif;
+}
+header img {
+  margin: 0 25px;
+}
+nav {
+  background-color: #ebc33f;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.navbar {
+  list-style: none;
+}
+.navbar li {
+    display: inline-block;
+    padding: 0 45px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 50%;
+  background-color: #565557;
+}
+.navbar li a:hover {
+  opacity: .5;
+  padding: 7px;
+  background-color: #282641;
+  transition: all 1.5s ease;
+}
+/*GRID*/
+main {
+  display: flex;
 
-/* GLOBAL:
-
-*/
-
-/*----------------------------------------------------------------------------*/
-
-/* NAV/HEADER:
-
-*/
-
-/*----------------------------------------------------------------------------*/
-
-/* FOOTER:
-
-*/
-
-
-
-p {
-  font-family: 'Play', sans-serif;
-  font-size: 50px;
-  color: red;
+  justify-content: center;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 400px 400px;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+.gridcontainer img {
+  max-width: 400px;
+}
+.box {
+ border-radius: 2%;
+ max-width: 500px;
+ max-height: 400px;
+ margin: auto;
+ text-align: center;
+}
+.box img {
+  margin-top: 5px;
+  border-radius: 5%;
+}
+.box p {
+  margin: 0;
+}
+/* FOOTER:  */
+footer {
+  width: 100%;
+  background-color: #565557;
+  margin: 25px 0 0 0;
+}
+footer p {
+  padding: 25px 0 0 0;
+  text-align: center;
+}
+.navbar2 {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar2 ul {
+  width: 100%;
+}
+.navbar2 li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 50px 40px 50px;
 }

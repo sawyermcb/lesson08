@@ -49,7 +49,7 @@ header img {
 }
 nav {
   background-color: #ebc33f;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,4 +128,56 @@ footer p {
   list-style: none;
   display: inline-block;
   padding: 0 50px 40px 50px;
+}
+
+
+
+@media (max-width: 700px) {
+  html {
+    max-width: 100%;
+  }
+  body {
+    text-transform: uppercase;
+    margin-top: 100px;
+  }
+  header {
+    max-width: 100%;
+  }
+  nav {
+    background-color: white;
+    border-radius: 0%;
+    margin: 0 auto;
+  }
+  ul.navbar {
+    padding-left: 0;
+  }
+  .navbar li {
+    display: block;
+    margin: 15px 0;
+  }
+  header img {
+    max-width: 50px;
+  }
+  header {
+
+  }
+  .gridcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .box {
+    width: 200px;
+    margin: 150px 0;
+  }
+  .box img {
+    max-width: 300px;
+  }
+  .box p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  footer {
+    max-width: 100%;
+  }
 }

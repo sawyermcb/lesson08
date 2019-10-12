@@ -209,6 +209,6 @@ footer img {
     border-top: 2px groove white;
   }
   .navbar2 li {
-    padding-left: 0;
+    padding: 0 10px;
   }
 }

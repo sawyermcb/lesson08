@@ -120,6 +120,9 @@ footer p {
   padding: 25px 0 0 0;
   text-align: center;
 }
+footer img {
+  width: 100px;
+}
 .navbar2 {
   margin-bottom: 0;
   display: flex;
@@ -143,18 +146,18 @@ footer p {
   }
   body {
     text-transform: uppercase;
-    margin-top: 170px;
+    font-size: 3rem;
+    /* margin-top: 170px; */
   }
   header {
-    max-width: 100%;
-
+    /* max-width: 100%; */
+    display: none;
   }
   nav {
     background-color: white;
     border-radius: 15%;
     width: 70%;
 
-    /* margin: 0 auto; */
   }
   ul.navbar {
     padding-left: 0;
@@ -180,6 +183,7 @@ footer p {
     align-items: center; */
     width: 100%;
     /* margin-left: 50px; */
+    margin-top: -300px;
   }
   .gridcontainer {
     display: flex;
@@ -190,14 +194,15 @@ footer p {
   }
   .box {
     max-width: 300px;
-    margin: 50px 0;
+    margin: 100px 0;
   }
   .box img {
     max-width: 300px;
   }
   .box p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
+
   }
   footer {
     min-width: 100%;

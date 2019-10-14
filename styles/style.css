@@ -18,7 +18,7 @@ Black
 /* GLOBAL:  */
 html {
   box-sizing: border-box;
-  font-size: 2vw;
+  font-size: 25px;
 }
 body {
   margin: 0;
@@ -43,6 +43,7 @@ header {
   right: 0;
   left: 0;
   font-family: 'Acme', sans-serif;
+  z-index: 3;
 }
 header img {
   margin: 0 25px;
@@ -54,6 +55,7 @@ nav {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+
 }
 .navbar {
   list-style: none;
@@ -71,7 +73,7 @@ ul.navbar {
   padding: 5px 5px;
   border-radius: 50%;
   background-color: #565557;
-  font-size: .5rem;
+  font-size: .6rem;
 }
 .navbar li a:hover {
   opacity: .5;
@@ -138,6 +140,96 @@ footer img {
   padding: 0 50px 40px 50px;
 }
 
+/*HAMBURGER BASIC----------
+---------------------------
+---------------------------
+*/
+
+
+#menu {
+  width: 35px;
+  height: 35px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  display: block;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+#bar1 {
+  transform: translateY(-4px);
+}
+#bar3 {
+  transform: translateY(4px);
+}
+.change .bar {
+  background-color: white;
+}
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+.change #bar2 {
+  opacity: 0;
+}
+.nav li a {
+  color: #ebc33f;
+  text-decoration: none;
+}
+.nav li a:hover {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  transition: .5s ease;
+}
+.nav li {
+  list-style: none;
+  padding: 15px;
+}
+.menu-bg , #menu-bar {
+  z-index: 1;
+  position: absolute;
+}
+#menu-bar {
+  z-index: 2;
+}
+.nav {
+  padding: 0;
+  margin: 0 20px;
+  transition: 0.3s ease;
+  display: none;
+}
+.change {
+  display: block;
+}
+.menu-bg {
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle,#a8a8a8,#363636);
+  transition: 0.7s ease;
+  z-index: 1;
+  border-radius: 50%;
+  margin: 30px 0 20px 20px;
+}
+.change-bg {
+  width:500px;
+  height: 400px;
+  transform: translate(-50% , -10%);
+  border: 5px double white;
+}
+
+
+/*Media Querie----------
+---------------------------
+---------------------------
+*/
+
+
 
 
 @media (max-width: 1000px) {
@@ -146,7 +238,7 @@ footer img {
   }
   body {
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 1rem;
     /* margin-top: 170px; */
   }
   header {
@@ -200,7 +292,7 @@ footer img {
     max-width: 300px;
   }
   .box p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
 
   }
@@ -209,6 +301,18 @@ footer img {
     border-top: 2px groove white;
   }
   .navbar2 li {
-    padding: 0 10px;
+    padding: 0px 0px 50px 0px;
+    margin: 0 15px;
+  }
+  .change-bg {
+    width:500px;
+    height: 450px;
+    transform: translate(-50% , -20%);
+  }
+
+  .menu-bg , #menu-bar {
+    top: 0;
+    left: 0;
+    position: absolute;
   }
 }

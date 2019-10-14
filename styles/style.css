@@ -229,7 +229,11 @@ footer img {
 ---------------------------
 */
 
-
+@media (min-width: 1000px) {
+  #menu-bar , .menu-bg, .change-bg {
+    display: none;
+  }
+}
 
 
 @media (max-width: 1000px) {

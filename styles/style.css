@@ -308,6 +308,7 @@ footer img {
     width:500px;
     height: 450px;
     transform: translate(-50% , -20%);
+    transition: 0s ease;
   }
 
   .menu-bg , #menu-bar {

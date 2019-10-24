@@ -236,10 +236,6 @@ footer img {
   flex-wrap: wrap;
 
 }
-.form-fields {
-  flex: 1 0 300px;
-
-}
 .title {
   text-align: center;
   width: 100%;
@@ -250,6 +246,7 @@ footer img {
   background:#ffc95c;
   padding: 10px;
   border: 3px groove white;
+  flex: 1 0 300px;
 }
 .form-fields li {
   display: flex;
@@ -306,8 +303,8 @@ input[type="text"] {
   #menu-bar , .menu-bg, .change-bg {
     display: none;
   }
-}
 
+}
 
 @media (max-width: 1000px) {
   html {

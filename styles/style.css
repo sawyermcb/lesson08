@@ -311,6 +311,7 @@ input[type="text"] {
   justify-content: center;
   grid-column: 1/4;
   grid-row: 1/2;
+  text-align: center;
   background: linear-gradient(rgba(255,255,255,.4) , rgba(255,255,255,.4)) ,
   url(../images/grid-header.jpg);
   background-repeat: no-repeat;

@@ -81,10 +81,12 @@ ul.navbar {
   background-color: #282641;
   transition: all 1.5s ease;
 }
+.printertag {
+  display: none;
+}
 /*GRID*/
 main {
   display: flex;
-
   justify-content: center;
 }
 .gridcontainer {

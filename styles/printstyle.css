@@ -1,0 +1,24 @@
+@media print {
+  .register-form {
+    display: none;
+  }
+  #menu-bar {
+    display: none;
+  }
+  .grid2  {
+    display: none;
+  }
+  html {
+    font-size: 12pt;
+  }
+  .printertag {
+    display: block;
+    text-align: center;
+  }
+  footer {
+    border: none;
+  }
+  body {
+    background: none;
+  }
+}

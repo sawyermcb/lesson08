@@ -92,6 +92,9 @@ ul.navbar {
 .printertag {
   display: none;
 }
+a .btn:hover{
+  background: #947400;
+}
 /*GRID----------
 ---------------------------
 ---------------------------

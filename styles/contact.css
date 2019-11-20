@@ -1,14 +1,15 @@
 html {
   box-sizing: border-box;
   font-size: 25px;
-
 }
 body {
   margin: 0;
   background: linear-gradient(90deg, rgba(255,201,35,1) 5% , rgba(255,255,255,1) 100%);
   background-position: center;
+
   font-family: 'Acme', sans-serif;
   font-size: 1.1em;
+
 }
 
 
@@ -21,18 +22,11 @@ body {
 .btn {
   padding: 50px 0 50px 0;
 }
-
 .btn-group {
   border: 3px solid white;
 }
 .btnone {
   margin-bottom: 25px;
-  position: fixed;
-  top: 0;
-  z-index: 4;
-}
-.btntwo {
-
 }
 .btn-group a:hover {
   opacity: .9;
@@ -41,24 +35,22 @@ a .btn {
   color: white;
   font-size: .9em;
 }
-a .btn:hover{
-  background: #947400;
-}
+
 #myCarousel {
   background-image: url(../images/codescroll.gif);
+  margin-bottom: px;
   max-height: 410px;
-
-
 }
 .item img {
   max-height: 410px;
 }
 .banner {
-  text-align: center;
   font-size: 3em;
-  margin-top: 150px;
+  text-align: center;
 }
-
+a .btn:hover{
+  background: #947400;
+}
 /*FOOTER----------
 ---------------------------
 ---------------------------

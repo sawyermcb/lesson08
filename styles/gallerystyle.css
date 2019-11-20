@@ -78,3 +78,24 @@ footer img {
   padding: 0 50px 40px 50px;
   color: white;
 }
+
+/*MEDIA QUERIES---------
+---------------------------
+---------------------------
+*/
+
+@media (max-width: 1000px) {
+
+  body {
+    width: 100%;
+  }
+  .navbar2 li {
+    padding: 5px;
+  }
+  #myCarousel {
+    max-height: 220px;
+  }
+  .item img {
+    max-height: 220px;
+  }
+}

@@ -15,7 +15,10 @@ Black
 #282641
 */
 
-/* GLOBAL:  */
+/*GLOBAL----------
+---------------------------
+---------------------------
+*/
 html {
   box-sizing: border-box;
   font-size: 25px;
@@ -27,7 +30,11 @@ body {
   background-position: center;
   background-size: cover;
   margin-top: 210px;
-font-family: 'Acme', sans-serif;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.1em;
+}
+h4 {
+  font-size: 1.1em;
 }
 /* NAV/HEADER: */
 header {
@@ -54,7 +61,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+
 
 }
 .navbar {
@@ -62,6 +69,7 @@ nav {
 }
 ul.navbar {
   padding: 0;
+  margin-bottom: 0;
 }
 .navbar li {
     display: inline-block;
@@ -84,7 +92,10 @@ ul.navbar {
 .printertag {
   display: none;
 }
-/*GRID*/
+/*GRID----------
+---------------------------
+---------------------------
+*/
 main {
   display: flex;
   justify-content: center;
@@ -114,7 +125,10 @@ main {
 .box p {
   margin: 0;
 }
-/* FOOTER:  */
+/*FOOTER----------
+---------------------------
+---------------------------
+*/
 footer {
   width: 100%;
   background-color: #565557;
@@ -123,6 +137,7 @@ footer {
 footer p {
   padding: 25px 0 0 0;
   text-align: center;
+  color: white;
 }
 footer img {
   width: 100px;
@@ -140,7 +155,34 @@ footer img {
   list-style: none;
   display: inline-block;
   padding: 0 50px 40px 50px;
+  color: white;
 }
+
+
+/*FOOTER BUTTON BAR----------
+---------------------------
+---------------------------
+*/
+.btn  {
+
+}
+a .btn {
+  color: white;
+  font-size: .9em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*HAMBURGER BASIC----------
 ---------------------------

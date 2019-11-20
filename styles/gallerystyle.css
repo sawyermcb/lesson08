@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+  font-size: 25px;
+}
+body {
+  margin: 0;
+  background: linear-gradient(90deg, rgba(255,201,35,1) 5% , rgba(255,255,255,1) 100%);
+  background-position: center;
+
+  font-family: 'Acme', sans-serif;
+  font-size: 1.1em;
+
+}
+
+
+
+
+/*GALLERY.HTML----------
+---------------------------
+---------------------------
+*/
+.btn {
+  padding: 50px 0 50px 0;
+}
+.btn-group {
+  border: 3px solid white;
+}
+.btnone {
+  margin-bottom: 25px;
+}
+.btn-group a:hover {
+  opacity: .5;
+}
+a .btn {
+  color: white;
+  font-size: .9em;
+}
+
+#myCarousel {
+  background-image: url(../images/codescroll.gif);
+  margin-bottom: px;
+  max-height: 410px;
+}
+.item img {
+  max-height: 410px;
+}
+
+
+/*FOOTER----------
+---------------------------
+---------------------------
+*/
+footer {
+  width: 100%;
+  background-color: #565557;
+  margin: 25px 0 25px 0;
+}
+footer p {
+  padding: 25px 0 0 0;
+  text-align: center;
+  color: white;
+}
+footer img {
+  width: 100px;
+}
+.navbar2 {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar2 ul {
+  width: 100%;
+}
+.navbar2 li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 50px 40px 50px;
+  color: white;
+}

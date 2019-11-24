@@ -234,6 +234,7 @@ a .btn {
   font-weight: bolder;
   font-size: 1.1rem;
   transition: .5s ease;
+  background: none;
 }
 .nav li {
   list-style: none;
@@ -254,6 +255,10 @@ a .btn {
 }
 .change {
   display: block;
+  font-size: .8em;
+}
+.change li {
+  padding: 5px;
 }
 .menu-bg {
   width: 0;
@@ -339,7 +344,9 @@ input[type="text"] {
   background-color: white;
   cursor: pointer;
 }
-
+.btn {
+  border: 3px solid white;
+}
 /*SECOND GRID - BOTTOM----------
 ---------------------------
 ---------------------------
@@ -452,7 +459,6 @@ input[type="text"] {
     background-color: white;
     border-radius: 15%;
     width: 70%;
-
   }
   ul.navbar {
     padding-left: 0;

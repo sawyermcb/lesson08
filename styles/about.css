@@ -12,7 +12,110 @@ body {
 
 }
 
+/*SECOND GRID - BOTTOM----------
+---------------------------
+---------------------------
+*/
+.grid2 {
+  margin: 50px auto 0;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  text-align: center;
+  background: linear-gradient(rgba(255,255,255,.4) , rgba(255,255,255,.4)) ,
+  url(../images/grid-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px groove white;
+  border-radius: 5%;
+}
+.sidebar {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  text-align: center;
+  background: linear-gradient(rgba(255,255,255,.4) , rgba(255,255,255,.4)) ,
+  url(../images/grid-sidebar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px groove white;
+  border-radius: 20%;
+}
+.main {
+  grid-column: 2/4;
+  grid-row: 2/4;
+  text-align: center;
+  background: linear-gradient(rgba(255,255,255,.4) , rgba(255,255,255,.4)) ,
+  url(../images/grid-sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px groove white;
+  border-radius: 30%;
+}
+.main p {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.sidebar p {
+  margin-bottom: 50px;
+}
+.foot {
+  grid-column: 1/4;
+  grid-row: 4;
+  text-align: center;
+  background: linear-gradient(rgba(255,255,255,.4) , rgba(255,255,255,.4)) ,
+  url(../images/grid-foot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px groove white;
+  border-radius: 5%;
+}
+.grid2 h2 {
+  font-size: 1.5em;
+}
+.grid2 h4 {
+  font-size: 1.5em;
+}
 
+/*ABOUT.HTML - Text Boxes x3----------
+---------------------------
+---------------------------
+*/
+.aboutcontainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.abouttext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.abouttext div {
+  background: rgba(255, 255, 255, .8) ;
+  border: 5px groove white;
+}
+.about1 {
+  min-width: 300px;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.about1 p {
+  padding: 5px;
+}
+.about1 h3 {
+  text-align: center;
+  font-size: 1.7em;
+}
 
 
 /*GALLERY.HTML----------
@@ -20,10 +123,10 @@ body {
 ---------------------------
 */
 .btn {
-  padding: 50px 0 50px 0;
+  padding: 20px 0 20px 0;
+  border: 3px solid white;
 }
 .btn-group {
-  border: 3px solid white;
 }
 .btnone {
   margin-bottom: 25px;
@@ -58,7 +161,7 @@ a .btn:hover{
 footer {
   width: 100%;
   background-color: #565557;
-  margin: 25px 0 25px 0;
+  margin: 25px 0 0 0;
 }
 footer p {
   padding: 25px 0 0 0;

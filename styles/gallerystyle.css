@@ -19,11 +19,12 @@ body {
 ---------------------------
 */
 .btn {
-  padding: 50px 0 50px 0;
+  padding: 20px 0 20px 0;
+  border: 3px solid white;
 }
 
 .btn-group {
-  border: 3px solid white;
+  
 }
 .btnone {
   margin-bottom: 25px;
@@ -47,8 +48,6 @@ a .btn:hover{
 #myCarousel {
   background-image: url(../images/codescroll.gif);
   max-height: 410px;
-
-
 }
 .item img {
   max-height: 410px;
@@ -66,7 +65,7 @@ a .btn:hover{
 footer {
   width: 100%;
   background-color: #565557;
-  margin: 25px 0 25px 0;
+  margin: 25px 0 0 0;
 }
 footer p {
   padding: 25px 0 0 0;
